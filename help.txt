@@ -1,0 +1,28 @@
+```コマンド一覧
+(WS = WorkStation)
+
+stat WS名
+指定したWSのリモートアクセスの利用状況を調べます
+stat のみで実行するとすべてのWSの利用状況を調べます
+例）stat WorkStation
+
+use WS名
+指定したWSの利用開始を記録します
+use のみで実行するとすべてのWSに対して利用開始を記録します
+例）use WorkStation
+
+end WS名
+指定したWSの利用終了を記録します
+end のみで実行するとすべてのWSに対して利用終了を記録します
+例）end WorkStation
+
+pass WS名
+指定したWSへの各種アクセスに必要な情報を表示します
+pass のみで実行するとすべてのWSへの各種アクセスに必要な情報を表示します
+例）pass WorkStation
+
+opendm
+WSManagerとのDMを開始します
+誤ってDMを閉じてしまった際などに利用してください
+例）opendm```
+
